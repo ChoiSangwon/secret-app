@@ -75,11 +75,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="24dp"
         android:onClick="clickSign"
         android:text="/"
-        app:layout_constraintEnd_toStartOf="@+id/equl"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/mul"
         app:layout_constraintTop_toBottomOf="@+id/plus" />
 
@@ -145,17 +142,6 @@
         app:layout_constraintTop_toBottomOf="@+id/number4" />
 
     <Button
-        android:id="@+id/equl"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="24dp"
-        android:onClick="clickSign"
-        android:text="="
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sub" />
-
-    <Button
         android:id="@+id/number9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -198,5 +184,15 @@
         android:text="3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:text="="
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sub" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
